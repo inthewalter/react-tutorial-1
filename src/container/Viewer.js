@@ -47,7 +47,7 @@ export default class Viewer extends Component {
             </div>
             <div className="wrap_images">
               { episode.images.map((img, index) => (
-                <img key={ index } src={ img } />
+                <img key={ index } src={ img } alt="test"/>
               ))}
             </div>
           </div>

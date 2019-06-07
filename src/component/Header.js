@@ -2,7 +2,7 @@ import React from 'react';
 
 const Header = () => (
   <div className="header">
-    WEBTOON
+    <a href="/" className="header">WEBTOON</a>
   </div>
 )
 
